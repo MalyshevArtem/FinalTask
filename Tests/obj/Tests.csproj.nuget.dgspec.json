@@ -1,0 +1,158 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/artem/Desktop/Stage2/ATmodule/FinalTask/Tests/Tests.csproj": {}
+  },
+  "projects": {
+    "/home/artem/Desktop/Stage2/ATmodule/FinalTask/PageObjects/PageObjects.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/artem/Desktop/Stage2/ATmodule/FinalTask/PageObjects/PageObjects.csproj",
+        "projectName": "PageObjects",
+        "projectPath": "/home/artem/Desktop/Stage2/ATmodule/FinalTask/PageObjects/PageObjects.csproj",
+        "packagesPath": "/home/artem/.nuget/packages/",
+        "outputPath": "/home/artem/Desktop/Stage2/ATmodule/FinalTask/PageObjects/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/artem/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Selenium.WebDriver": {
+              "target": "Package",
+              "version": "[4.29.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.112/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/artem/Desktop/Stage2/ATmodule/FinalTask/Tests/Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/artem/Desktop/Stage2/ATmodule/FinalTask/Tests/Tests.csproj",
+        "projectName": "Tests",
+        "projectPath": "/home/artem/Desktop/Stage2/ATmodule/FinalTask/Tests/Tests.csproj",
+        "packagesPath": "/home/artem/.nuget/packages/",
+        "outputPath": "/home/artem/Desktop/Stage2/ATmodule/FinalTask/Tests/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/artem/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/home/artem/Desktop/Stage2/ATmodule/FinalTask/PageObjects/PageObjects.csproj": {
+                "projectPath": "/home/artem/Desktop/Stage2/ATmodule/FinalTask/PageObjects/PageObjects.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.6.0, )"
+            },
+            "Selenium.WebDriver": {
+              "target": "Package",
+              "version": "[4.29.0, )"
+            },
+            "Selenium.WebDriver.ChromeDriver": {
+              "target": "Package",
+              "version": "[134.0.6998.9000, )"
+            },
+            "Selenium.WebDriver.GeckoDriver": {
+              "target": "Package",
+              "version": "[0.36.0, )"
+            },
+            "coverlet.collector": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.2, )"
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.4.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.112/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

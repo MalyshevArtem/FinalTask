@@ -1,0 +1,15 @@
+/home/artem/Desktop/Stage2/ATmodule/FinalTask/PageObjects/bin/Debug/net8.0/selenium-manager/linux/selenium-manager
+/home/artem/Desktop/Stage2/ATmodule/FinalTask/PageObjects/bin/Debug/net8.0/selenium-manager/macos/selenium-manager
+/home/artem/Desktop/Stage2/ATmodule/FinalTask/PageObjects/bin/Debug/net8.0/selenium-manager/windows/selenium-manager.exe
+/home/artem/Desktop/Stage2/ATmodule/FinalTask/PageObjects/bin/Debug/net8.0/PageObjects.deps.json
+/home/artem/Desktop/Stage2/ATmodule/FinalTask/PageObjects/bin/Debug/net8.0/PageObjects.dll
+/home/artem/Desktop/Stage2/ATmodule/FinalTask/PageObjects/bin/Debug/net8.0/PageObjects.pdb
+/home/artem/Desktop/Stage2/ATmodule/FinalTask/PageObjects/obj/Debug/net8.0/PageObjects.csproj.AssemblyReference.cache
+/home/artem/Desktop/Stage2/ATmodule/FinalTask/PageObjects/obj/Debug/net8.0/PageObjects.GeneratedMSBuildEditorConfig.editorconfig
+/home/artem/Desktop/Stage2/ATmodule/FinalTask/PageObjects/obj/Debug/net8.0/PageObjects.AssemblyInfoInputs.cache
+/home/artem/Desktop/Stage2/ATmodule/FinalTask/PageObjects/obj/Debug/net8.0/PageObjects.AssemblyInfo.cs
+/home/artem/Desktop/Stage2/ATmodule/FinalTask/PageObjects/obj/Debug/net8.0/PageObjects.csproj.CoreCompileInputs.cache
+/home/artem/Desktop/Stage2/ATmodule/FinalTask/PageObjects/obj/Debug/net8.0/PageObjects.dll
+/home/artem/Desktop/Stage2/ATmodule/FinalTask/PageObjects/obj/Debug/net8.0/refint/PageObjects.dll
+/home/artem/Desktop/Stage2/ATmodule/FinalTask/PageObjects/obj/Debug/net8.0/PageObjects.pdb
+/home/artem/Desktop/Stage2/ATmodule/FinalTask/PageObjects/obj/Debug/net8.0/ref/PageObjects.dll
