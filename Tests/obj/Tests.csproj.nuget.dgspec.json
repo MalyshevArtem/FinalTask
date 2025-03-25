@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/artem/Desktop/Stage2/ATmodule/FinalTask/Tests/Tests.csproj": {}
+    "/home/artem/Desktop/Stage2/ATmodule/f2/FinalTask/Tests/Tests.csproj": {}
   },
   "projects": {
-    "/home/artem/Desktop/Stage2/ATmodule/FinalTask/PageObjects/PageObjects.csproj": {
+    "/home/artem/Desktop/Stage2/ATmodule/f2/FinalTask/PageObjects/PageObjects.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/artem/Desktop/Stage2/ATmodule/FinalTask/PageObjects/PageObjects.csproj",
+        "projectUniqueName": "/home/artem/Desktop/Stage2/ATmodule/f2/FinalTask/PageObjects/PageObjects.csproj",
         "projectName": "PageObjects",
-        "projectPath": "/home/artem/Desktop/Stage2/ATmodule/FinalTask/PageObjects/PageObjects.csproj",
+        "projectPath": "/home/artem/Desktop/Stage2/ATmodule/f2/FinalTask/PageObjects/PageObjects.csproj",
         "packagesPath": "/home/artem/.nuget/packages/",
-        "outputPath": "/home/artem/Desktop/Stage2/ATmodule/FinalTask/PageObjects/obj/",
+        "outputPath": "/home/artem/Desktop/Stage2/ATmodule/f2/FinalTask/PageObjects/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/artem/.nuget/NuGet/NuGet.Config"
@@ -63,14 +63,14 @@
         }
       }
     },
-    "/home/artem/Desktop/Stage2/ATmodule/FinalTask/Tests/Tests.csproj": {
+    "/home/artem/Desktop/Stage2/ATmodule/f2/FinalTask/Tests/Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/artem/Desktop/Stage2/ATmodule/FinalTask/Tests/Tests.csproj",
+        "projectUniqueName": "/home/artem/Desktop/Stage2/ATmodule/f2/FinalTask/Tests/Tests.csproj",
         "projectName": "Tests",
-        "projectPath": "/home/artem/Desktop/Stage2/ATmodule/FinalTask/Tests/Tests.csproj",
+        "projectPath": "/home/artem/Desktop/Stage2/ATmodule/f2/FinalTask/Tests/Tests.csproj",
         "packagesPath": "/home/artem/.nuget/packages/",
-        "outputPath": "/home/artem/Desktop/Stage2/ATmodule/FinalTask/Tests/obj/",
+        "outputPath": "/home/artem/Desktop/Stage2/ATmodule/f2/FinalTask/Tests/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/artem/.nuget/NuGet/NuGet.Config"
@@ -85,8 +85,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/home/artem/Desktop/Stage2/ATmodule/FinalTask/PageObjects/PageObjects.csproj": {
-                "projectPath": "/home/artem/Desktop/Stage2/ATmodule/FinalTask/PageObjects/PageObjects.csproj"
+              "/home/artem/Desktop/Stage2/ATmodule/f2/FinalTask/PageObjects/PageObjects.csproj": {
+                "projectPath": "/home/artem/Desktop/Stage2/ATmodule/f2/FinalTask/PageObjects/PageObjects.csproj"
               }
             }
           }
@@ -101,6 +101,10 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "FluentAssertions": {
+              "target": "Package",
+              "version": "[8.2.0, )"
+            },
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
               "version": "[17.6.0, )"

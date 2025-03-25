@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "z06Wk0w+FnmpsUCi4B7++CfT89Fw3Rt9i02DGaGAENpBp4qn2l8E75Yd0914+nZqoeuegCbBm4e1fwO/2GsaVw==",
+  "dgSpecHash": "EBuhUDTxmjqCcB4Pq588+LPEY19IVgw3pMDdrgMgh69dM8Dh+6TbuyutYC2OIGg0Ox+cXIAtzaTJBm8iw3gx8A==",
   "success": true,
-  "projectFilePath": "/home/artem/Desktop/Stage2/ATmodule/FinalTask/Tests/Tests.csproj",
+  "projectFilePath": "/home/artem/Desktop/Stage2/ATmodule/f2/FinalTask/Tests/Tests.csproj",
   "expectedPackageFiles": [
     "/home/artem/.nuget/packages/coverlet.collector/6.0.0/coverlet.collector.6.0.0.nupkg.sha512",
+    "/home/artem/.nuget/packages/fluentassertions/8.2.0/fluentassertions.8.2.0.nupkg.sha512",
     "/home/artem/.nuget/packages/microsoft.codecoverage/17.6.0/microsoft.codecoverage.17.6.0.nupkg.sha512",
     "/home/artem/.nuget/packages/microsoft.net.test.sdk/17.6.0/microsoft.net.test.sdk.17.6.0.nupkg.sha512",
     "/home/artem/.nuget/packages/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",

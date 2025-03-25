@@ -1,17 +1,13 @@
-using OpenQA.Selenium;
 using PageObjects;
 using Tests.Utilities;
+using FluentAssertions;
 
 namespace Tests;
 
-public class SaucedemoTests : IDisposable
+public class SaucedemoChromeTests : SaucedemoBaseClass
 {
-    private readonly IWebDriver driver;
-
-    public SaucedemoTests()
+    public SaucedemoChromeTests() : base(BrowserType.Chrome)
     {
-        driver = WebDriverFactory.CreateWebDriver(BrowserType.Firefox);
-        driver.Manage().Window.Maximize();
     }
 
     [Theory]
@@ -25,7 +21,7 @@ public class SaucedemoTests : IDisposable
         string errorMessage = indexPage.Open().LogInAllCleared(username, password);
 
         // assert
-        Assert.Contains(expected, errorMessage);
+        errorMessage.Should().Contain(expected);
     }
 
     [Theory]
@@ -39,7 +35,7 @@ public class SaucedemoTests : IDisposable
         string errorMessage = indexPage.Open().LogInPasswordCleared(username, password);
 
         // assert
-        Assert.Contains(expected, errorMessage);
+        errorMessage.Should().Contain(expected);
     }
 
     [Theory]
@@ -53,15 +49,6 @@ public class SaucedemoTests : IDisposable
         InventoryPage inventoryPage = indexPage.Open().LogIn(username, password);
 
         // assert
-        Assert.Equal(expected, inventoryPage.GetTtile());
-    }
-
-    public void Dispose()
-    {
-        if (driver != null)
-        {
-            driver.Quit();
-            driver.Dispose();
-        }
+        inventoryPage.GetTtile().Should().Be(expected);
     }
 }

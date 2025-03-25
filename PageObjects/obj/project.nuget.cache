@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "5WK2BDvLpuLCwiWLjXsCa0GRv0e+AEtjfcNFpJ4X6wPL4zQAVMCF4z/Zzz/KsrlS5TDexT05RL0nqUvL4s/RkQ==",
+  "dgSpecHash": "97h7J5zGqUX5Ata4EN5GoAKFV3Zm5x0AmOLWyZ4nnOKfROlMejvY9iE6KxT8tCmbJs5fE97EcCEisNUmbTUZsg==",
   "success": true,
-  "projectFilePath": "/home/artem/Desktop/Stage2/ATmodule/FinalTask/PageObjects/PageObjects.csproj",
+  "projectFilePath": "/home/artem/Desktop/Stage2/ATmodule/f2/FinalTask/PageObjects/PageObjects.csproj",
   "expectedPackageFiles": [
     "/home/artem/.nuget/packages/selenium.webdriver/4.29.0/selenium.webdriver.4.29.0.nupkg.sha512"
   ],

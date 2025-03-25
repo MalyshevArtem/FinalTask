@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/artem/Desktop/Stage2/ATmodule/FinalTask/PageObjects/PageObjects.csproj": {}
+    "/home/artem/Desktop/Stage2/ATmodule/f2/FinalTask/PageObjects/PageObjects.csproj": {}
   },
   "projects": {
-    "/home/artem/Desktop/Stage2/ATmodule/FinalTask/PageObjects/PageObjects.csproj": {
+    "/home/artem/Desktop/Stage2/ATmodule/f2/FinalTask/PageObjects/PageObjects.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/artem/Desktop/Stage2/ATmodule/FinalTask/PageObjects/PageObjects.csproj",
+        "projectUniqueName": "/home/artem/Desktop/Stage2/ATmodule/f2/FinalTask/PageObjects/PageObjects.csproj",
         "projectName": "PageObjects",
-        "projectPath": "/home/artem/Desktop/Stage2/ATmodule/FinalTask/PageObjects/PageObjects.csproj",
+        "projectPath": "/home/artem/Desktop/Stage2/ATmodule/f2/FinalTask/PageObjects/PageObjects.csproj",
         "packagesPath": "/home/artem/.nuget/packages/",
-        "outputPath": "/home/artem/Desktop/Stage2/ATmodule/FinalTask/PageObjects/obj/",
+        "outputPath": "/home/artem/Desktop/Stage2/ATmodule/f2/FinalTask/PageObjects/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/artem/.nuget/NuGet/NuGet.Config"
