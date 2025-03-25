@@ -1,0 +1,27 @@
+2025-03-25 17:43:12 - LogInAllCleared_ReturnErrorMessage started with username: standard_user, password: secret_sauce, expected: Username is required
+2025-03-25 17:56:26 - LogInPasswordCleared_ReturnErrorMessage started with username: standard_user, password: secret_sauce, expected: Password is required
+2025-03-25 17:56:30 - LogInPasswordCleared_ReturnErrorMessage result: Actual error message was Epic sadface: Password is required, expected Password is required.
+2025-03-25 17:56:35 - LogInAllCleared_ReturnErrorMessage started with username: standard_user, password: secret_sauce, expected: Username is required
+2025-03-25 17:56:35 - LogInPasswordCleared_ReturnErrorMessage started with username: standard_user, password: secret_sauce, expected: Password is required
+2025-03-25 17:56:41 - LogInPasswordCleared_ReturnErrorMessage result: Actual error message was Epic sadface: Password is required, expected Password is required.
+2025-03-25 17:56:42 - LogInAllCleared_ReturnErrorMessage result: Actual error message was Epic sadface: Username is required, expected Username is required.
+2025-03-25 17:56:45 - LogIn_ReturnInventoryTitle started with username: standard_user, password: secret_sauce, expected: Swag Labs
+2025-03-25 17:56:49 - LogIn_ReturnInventoryTitle result: Actual title was Swag Labs, expected Swag Labs.
+2025-03-25 17:56:55 - LogInAllCleared_ReturnErrorMessage started with username: standard_user, password: secret_sauce, expected: Username is required
+2025-03-25 17:57:00 - LogInAllCleared_ReturnErrorMessage result: Actual error message was Epic sadface: Username is required, expected Username is required.
+2025-03-25 17:57:12 - LogIn_ReturnInventoryTitle started with username: standard_user, password: secret_sauce, expected: Swag Labs
+2025-03-25 17:57:15 - LogIn_ReturnInventoryTitle result: Actual title was Swag Labs, expected Swag Labs.
+2025-03-25 18:04:10 - LogIn_ReturnInventoryTitle started with username: standard_user, password: secret_sauce, expected: Swag Labs
+2025-03-25 18:04:14 - LogIn_ReturnInventoryTitle result: Actual title was Swag Labs, expected Swag Labs.
+2025-03-25 18:07:23 - LogInPasswordCleared_ReturnErrorMessage started with username: standard_user, password: secret_sauce, expected: Password is required
+2025-03-25 18:07:28 - LogInPasswordCleared_ReturnErrorMessage result: Actual error message was Epic sadface: Password is required, expected Password is required.
+2025-03-25 18:07:32 - LogInAllCleared_ReturnErrorMessage started with username: standard_user, password: secret_sauce, expected: Username is required
+2025-03-25 18:07:33 - LogInPasswordCleared_ReturnErrorMessage started with username: standard_user, password: secret_sauce, expected: Password is required
+2025-03-25 18:07:37 - LogInAllCleared_ReturnErrorMessage result: Actual error message was Epic sadface: Username is required, expected Username is required.
+2025-03-25 18:07:38 - LogInPasswordCleared_ReturnErrorMessage result: Actual error message was Epic sadface: Password is required, expected Password is required.
+2025-03-25 18:07:40 - LogIn_ReturnInventoryTitle started with username: standard_user, password: secret_sauce, expected: Swag Labs
+2025-03-25 18:07:44 - LogIn_ReturnInventoryTitle result: Actual title was Swag Labs, expected Swag Labs.
+2025-03-25 18:07:52 - LogInAllCleared_ReturnErrorMessage started with username: standard_user, password: secret_sauce, expected: Username is required
+2025-03-25 18:07:56 - LogInAllCleared_ReturnErrorMessage result: Actual error message was Epic sadface: Username is required, expected Username is required.
+2025-03-25 18:08:08 - LogIn_ReturnInventoryTitle started with username: standard_user, password: secret_sauce, expected: Swag Labs
+2025-03-25 18:08:11 - LogIn_ReturnInventoryTitle result: Actual title was Swag Labs, expected Swag Labs.
